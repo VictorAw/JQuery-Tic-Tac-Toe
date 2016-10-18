@@ -1,0 +1,51 @@
+/* reset */
+
+head, body, li, ul, figure, h1 {
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+.grid {
+  width: 600px;
+}
+/*
+.row {
+  display: block;
+}*/
+
+.square {
+  float: left;
+  border: 1px solid black;
+  display: inline-block;
+  height: 196px;
+  width: 196px;
+
+}
+
+.unclicked{
+  background-color: gray;
+}
+
+.hover{
+  background-color: #39FF14;
+  border: 1px solid yellow;
+
+}
+
+.clicked {
+  background-color: white;
+  text-align: center;
+  font-size: 100px;
+  line-height: 190px;
+}
+
+.x {
+  color: red;
+}
+
+.o {
+  color: blue;
+}
